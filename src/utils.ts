@@ -1,4 +1,4 @@
-import { WeatherObject } from './models';
+import { WeatherObject } from './model';
 
 export const isWeatherGood = (
   temperatures: number[],
