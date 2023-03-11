@@ -3,7 +3,7 @@ import PlacesAutocomplete, {
   geocodeByAddress,
   getLatLng,
 } from 'react-places-autocomplete';
-import { StartingLocation } from '../models';
+import { StartingLocation } from '../model';
 
 interface LocationSearchProps {
   setLocation: (newLocation: StartingLocation) => any;

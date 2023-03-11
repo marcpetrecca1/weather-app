@@ -2,7 +2,7 @@ import React, { ChangeEvent, useState, useEffect } from 'react';
 import NavBar from './components/NavBar';
 import { Chart } from './components/Chart';
 import HourSelect from './components/HourSelect';
-import { WeatherObject, StartingLocation } from './models';
+import { WeatherObject, StartingLocation } from './model';
 import './styles.css';
 import Loading from './components/Loading';
 import { parseWeatherData, getChartLabels } from './utils';
